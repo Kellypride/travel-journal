@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Main (props) {
     return (
-        <main className="py-10 px-5 flex gap-5 justify-center items-center font-montserrat text-black box-border">
+        <main className="py-8 px-5 flex gap-5 justify-center items-center font-montserrat text-black box-border">
             <img src={require('../../assets/'+props.item.img)} alt="japan img" className=" w-52 h-60 " />
             <div className="flex flex-col gap-2">
                 <div className="flex gap-4 items-center text-sm font-light">
